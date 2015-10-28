@@ -1,0 +1,49 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "thatpatrickguy@gmail.com",
+    "longName": "Pebble Image Sample",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/meriamberfacegradient.png",
+                "name": "MERI_COLOR",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/merisquare64colors.png",
+                "name": "MERI_ROUND",
+                "targetPlatforms": [
+                    "chalk"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/meriblackandwhite.png",
+                "name": "MERI",
+                "targetPlatforms": [
+                    "aplite"
+                ],
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Pebble Image Sample",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "37c7f8b2-fbcc-4ee5-ae9f-a995e96b6c6e",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
