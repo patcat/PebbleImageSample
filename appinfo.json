@@ -9,27 +9,8 @@
     "resources": {
         "media": [
             {
-                "file": "images/meriamberfacegradient.png",
-                "name": "MERI_COLOR",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "png"
-            },
-            {
-                "file": "images/merisquare64colors.png",
-                "name": "MERI_ROUND",
-                "targetPlatforms": [
-                    "chalk"
-                ],
-                "type": "png"
-            },
-            {
-                "file": "images/meriblackandwhite.png",
+                "file": "images/meri.png",
                 "name": "MERI",
-                "targetPlatforms": [
-                    "aplite"
-                ],
                 "type": "png"
             }
         ]

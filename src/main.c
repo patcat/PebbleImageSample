@@ -11,17 +11,9 @@ static void window_load(Window *window) {
 
   meri_image_layer = bitmap_layer_create(bounds);
 
-  #if defined(PBL_BW)
   meri_image = gbitmap_create_with_resource(RESOURCE_ID_MERI);
-  bitmap_layer_set_compositing_mode(meri_image_layer, GCompOpAssign);
-  #elif PBL_ROUND
-  meri_image = gbitmap_create_with_resource(RESOURCE_ID_MERI_ROUND);
+
   bitmap_layer_set_compositing_mode(meri_image_layer, GCompOpSet);
-  #elif defined(PBL_COLOR)
-  meri_image = gbitmap_create_with_resource(RESOURCE_ID_MERI_COLOR);
-  bitmap_layer_set_compositing_mode(meri_image_layer, GCompOpSet);
-  #endif
-	
   bitmap_layer_set_bitmap(meri_image_layer, meri_image);
   bitmap_layer_set_alignment(meri_image_layer, GAlignCenter);
   layer_add_child(window_layer, bitmap_layer_get_layer(meri_image_layer));
