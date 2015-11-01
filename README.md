@@ -1,5 +1,5 @@
 # Pebble Image Sample
-A demo using showing how to include background images into Pebble apps for the Basalt, Aplite and Chalk platforms.
+A demo using showing how to include background images into Pebble apps for the Aplite, Basalt and Chalk platforms.
 
 If this code helps you make something pretty cool, please do let me know! I'm on Twitter at @thatpatrickguy, or you can find me at http://www.patrickcatanzariti.com or http://www.patcat.com.
 
